@@ -29,7 +29,7 @@ public class Application {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		String filePath = ClassLoader.getSystemClassLoader().getResource("recensement.csv").getFile();
+		String filePath ="C:/Users/fouad/OneDrive/Documents/Java2024/java-poo-recensement/src/main/resources/recensement1.csv";
 		Recensement recensement = RecensementUtils.lire(filePath);
 
 		if (recensement == null) {
